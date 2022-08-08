@@ -1,7 +1,16 @@
 // Declare variables
-var currentDayP = $('currentDay');
 var containerDiv = $('.container');
+
+// Current date in header
+var currentDayP = $('#currentDay');
+var currentDay = moment().format('dddd, MMMM Do, h:mm a');
+currentDayP.text(currentDay);
+
 var currentHour = moment().hour();
+var timeBlockHour = $('col-1 hour');
+var task = $('description');
+
+
 // Hour variables
 var workHours = [
     moment().hour(9).format('hA'),
@@ -14,10 +23,9 @@ var workHours = [
     moment().hour(16).format('hA'),
     moment().hour(17).format('hA'),
 ];
-var timeBlockHour = $('col-1 hour');
-var task = $('description');
-var currentDay = moment().format('dddd, MMMM Do');
-currentDayP.text(currentDay);
+
+// var currentDate = moment();
+// $("#currentDate").text(currentDate.format("MMM Do, YYYY"));
 
 // Time block function to compare each time block to current time. 
 // if else statment used to differentiate between past, present, and future.
@@ -140,13 +148,13 @@ $('.col-10').on('blur', 'textarea', function () {
 })
 
 // Making data from local storage persist after refresh
-$('#Hour-9').html(localStorage.getItem('9AM'))
-$('#Hour-10').html(localStorage.getItem('10AM'))
-$('#Hour-11').html(localStorage.getItem('11AM'))
-$('#Hour-12').html(localStorage.getItem('12PM'))
-$('#Hour-13').html(localStorage.getItem('1PM'))
-$('#Hour-14').html(localStorage.getItem('2PM'))
-$('#Hour-15').html(localStorage.getItem('3PM'))
-$('#Hour-16').html(localStorage.getItem('4PM'))
-$('#Hour-17').html(localStorage.getItem('5PM'))
+$('#Hour-9').html(localStorage.getItem('9AM')),
+$('#Hour-10').html(localStorage.getItem('10AM')),
+$('#Hour-11').html(localStorage.getItem('11AM')),
+$('#Hour-12').html(localStorage.getItem('12PM')),
+$('#Hour-13').html(localStorage.getItem('1PM')),
+$('#Hour-14').html(localStorage.getItem('2PM')),
+$('#Hour-15').html(localStorage.getItem('3PM')),
+$('#Hour-16').html(localStorage.getItem('4PM')),
+$('#Hour-17').html(localStorage.getItem('5PM'));
 

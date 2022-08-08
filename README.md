@@ -16,7 +16,7 @@ https://gbundakji.github.io/work-day-schedular/
 
 Work Day Scheduler Webpage:
 
-<img src = "./assets/images/workschedule1.png" width = "500px">
+<img src = "./assets/images/workschedule.png" width = "500px">
 
 ## Credits 🌎
 
