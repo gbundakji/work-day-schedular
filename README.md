@@ -1,39 +1,45 @@
-# work-day-schedular
+# Work Day Scheduler 📅
 
-# 05 Third-Party APIs: Work Day Scheduler
+Welcome! ☺️👋
 
-## Your Task
+## Description 📝
 
-Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+This is a work day scheduler for the user to schedule important events for their 9AM to 5PM work day. This was created so that a user can organize their work day with the ability to save the schedule they have created. The schedule will allow the user to manage their time effectively.
 
-You'll need to use the [Moment.js](https://momentjs.com/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
+## Deployed Webpage 🖥️
 
-## User Story
 
-```md
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
 
-## Acceptance Criteria
+## Visuals 📷
 
-```md
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
+Work Day Scheduler Webpage:
 
-The following animation demonstrates the application functionality:
+<img src = "./assets/images/workschedule1.png" width = "500px">
 
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
+## Credits 🌎
+
+https://momentjs.com/
+https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Traversing_an_HTML_table_with_JavaScript_and_DOM_Interfaces
+https://developer.mozilla.org/en-US/docs/Web/API/Element/blur_event
+https://www.w3schools.com/jquery/event_load.asp#:~:text=load()%20.,)%2C%20and%20the%20window%20object.
+https://developer.mozilla.org/en-US/docs/Web/API/Storage/getItem
+https://developer.mozilla.org/en-US/docs/Web/API/Storage/setItem
+https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this
+https://www.w3schools.com/js/js_this.asp
+https://www.w3schools.com/jquery/html_html.asp
+
+## License 🔑
+
+MIT License
+
+Copyright (c) [2022] [Gassan-Bundakji]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
